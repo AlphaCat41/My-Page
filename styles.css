@@ -5,7 +5,7 @@ body {
 
 table {
     border: 1px solid;
-    max-width: 550px;
+    width: 550px;
 
     td {
         border: 1px solid;
@@ -24,7 +24,7 @@ div.profile {
 
     ul {
         margin: 5px;
-        max-width: 200px;
+        width: 200px;
     }
 
     h2 {
