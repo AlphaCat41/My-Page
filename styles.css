@@ -1,9 +1,20 @@
 body {
-    display: flex;
-    justify-content: center;
     font-family: "Hind Mysuru", sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+p.year {
+    text-align: center;
+    padding: 2%;
+    margin: 0;
+    font-size: medium;
+}
+
+div.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 div.profile {
@@ -11,7 +22,8 @@ div.profile {
     display: flex;
     flex-direction: column;
     background-color: #dcdcdc;
-    width: 250px;
+    width: 15%;
+    font-size: medium;
 
     ul {
         margin: 5px;
@@ -27,10 +39,11 @@ div.profile {
         justify-content: center;
 
         img.my_image {
-            margin: 10px;
+            margin: 5%;
             border: 1px solid;
             border-radius: 50%;
-            height: 190px;
+            height: 85%;
+            width: 50%;
         }
     }
 
@@ -38,17 +51,18 @@ div.profile {
 
 div.history {
     background-color: #f8f8f8;
-    padding: 15px;
-    width: 500px;
+    padding: 1%;
+    width: 40%;
     display: flex;
     flex-direction: column;
+    font-size: medium;
 
     h1 {
         border-bottom: 1px solid;
     }
 
     h2 {
-        margin: 10px;
+        margin: 1%;
     }
 
     table {
@@ -56,7 +70,6 @@ div.history {
 
         td {
             border: 1px solid;
-            padding: 5px;
         }
 
         th {
@@ -72,9 +85,9 @@ div.history {
         padding: 2px;
 
         img {
-            width: 38px;
-            height: 47px;
-            padding: 7px;
+            width: 5%;
+            height: 6%;
+            padding: 2%;
         }
     }
 }
