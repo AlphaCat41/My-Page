@@ -68,12 +68,13 @@ div.history {
     table {
         border: 1px solid;
 
-        td {
+        td.year {
+            width: 20%;
             border: 1px solid;
         }
 
-        td.year {
-            width: 20%;
+        td {
+            border: 1px solid;
         }
 
         th {
