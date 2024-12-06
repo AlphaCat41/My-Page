@@ -6,9 +6,13 @@ body {
 
 p.year {
     text-align: center;
-    padding: 2%;
+    padding: 10%;
     margin: 0;
     font-size: medium;
+}
+
+td.year {
+    width: 20%;
 }
 
 div.body {
@@ -52,7 +56,7 @@ div.profile {
 div.history {
     background-color: #f8f8f8;
     padding: 1%;
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     font-size: medium;
