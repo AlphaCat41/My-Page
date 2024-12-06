@@ -11,10 +11,25 @@ p.year {
     font-size: medium;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
 div.body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: medium;
+
+}
+
+ul {
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* list-style-type: none; */
 }
 
 div.profile {
@@ -23,15 +38,10 @@ div.profile {
     flex-direction: column;
     background-color: #dcdcdc;
     width: 15%;
-    font-size: medium;
-
-    ul {
-        margin: 5px;
-    }
 
     h2 {
         text-align: center;
-        padding: 3%;
+        padding: 1%;
         margin: 0;
     }
 
@@ -61,7 +71,6 @@ div.history {
     width: 35%;
     display: flex;
     flex-direction: column;
-    font-size: medium;
 
     h1 {
         border-bottom: 1px solid;
@@ -101,4 +110,27 @@ div.history {
             padding: 2%;
         }
     }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    div.body {
+        font-size: small;
+    }
+
+    div.profile {
+        width: 40%;
+        font-size: small;
+    }
+
+    div.history {
+        width: 60%;
+        font-size: small;
+
+    }
+
+    p.year {
+        font-size: small;
+    }
+
 }
