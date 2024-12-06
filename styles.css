@@ -4,14 +4,15 @@ body {
 }
 
 table {
-    border: 2px solid;
+    border: 1px solid;
+    max-width: 550px;
 
     td {
-        border: 2px solid;
+        border: 1px solid;
     }
 
     th {
-        border: 2px solid;
+        border: 1px solid;
     }
 }
 
@@ -23,6 +24,7 @@ div.profile {
 
     ul {
         margin: 5px;
+        max-width: 200px;
     }
 
     h2 {
@@ -36,7 +38,7 @@ div.profile {
 
         img.my_image {
             margin: 10px;
-            border: 2px solid;
+            border: 1px solid;
             border-radius: 50%;
             width: 150px;
             height: 190px;
