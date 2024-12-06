@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 2px solid;
+
+    td {
+        border: 2px solid;
+    }
+
+    th {
+        border: 2px solid;
+    }
+}
+
+div.profile {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    background-color: #dcdcdc;
+
+    ul {
+        margin: 5px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    div.image {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img.my_image {
+            margin: 10px;
+            border: 2px solid;
+            border-radius: 50%;
+            width: 150px;
+            height: 190px;
+        }
+    }
+
+}
+
+div.history {
+    background-color: #f8f8f8;
+    padding: 15px;
+}
