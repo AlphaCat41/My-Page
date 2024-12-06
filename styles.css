@@ -11,10 +11,6 @@ p.year {
     font-size: medium;
 }
 
-td.year {
-    width: 20%;
-}
-
 div.body {
     display: flex;
     flex-direction: row;
@@ -74,6 +70,10 @@ div.history {
 
         td {
             border: 1px solid;
+        }
+
+        td.year {
+            width: 20%;
         }
 
         th {
