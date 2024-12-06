@@ -1,6 +1,9 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: "Hind Mysuru", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 div.profile {
@@ -37,16 +40,41 @@ div.history {
     background-color: #f8f8f8;
     padding: 15px;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        border-bottom: 1px solid;
+    }
+
+    h2 {
+        margin: 10px;
+    }
 
     table {
         border: 1px solid;
 
         td {
             border: 1px solid;
+            padding: 5px;
         }
 
         th {
             border: 1px solid;
+            background-color: #dcdcdc;
+        }
+    }
+
+    div.history_detail {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2px;
+
+        img {
+            width: 38px;
+            height: 47px;
+            padding: 7px;
         }
     }
 }
