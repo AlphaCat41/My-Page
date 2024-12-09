@@ -4,6 +4,40 @@ body {
     font-style: normal;
 }
 
+.email {
+    .tooltip {
+        position: absolute;
+        border: 1px solid;
+        visibility: hidden;
+        background-color: #f8f8f8;
+        color: black;
+        padding: 2px;
+    }
+
+    &:hover {
+        .tooltip {
+            visibility: visible;
+        }
+    }
+}
+
+.age {
+    .tooltip {
+        position: absolute;
+        border: 1px solid;
+        visibility: hidden;
+        background-color: #f8f8f8;
+        color: black;
+        padding: 2px;
+    }
+
+    &:hover {
+        .tooltip {
+            visibility: visible;
+        }
+    }
+}
+
 p.year {
     text-align: center;
     padding: 10%;
