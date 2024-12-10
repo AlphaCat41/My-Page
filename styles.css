@@ -106,8 +106,14 @@ div.history {
     display: flex;
     flex-direction: column;
 
+    hr {
+        width: 100%;
+        border: 1px solid gray;
+    }
+
     h1 {
-        border-bottom: 1px solid;
+        padding: 0;
+        margin: 0;
     }
 
     h2 {

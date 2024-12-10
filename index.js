@@ -12,3 +12,13 @@ let year = age_dt.getUTCFullYear();
 let age = Math.abs(year - 1970);
 
 document.getElementById("age").innerHTML = "(" + age + " years)"
+
+var text_name = document.querySelector(".name");
+
+text_name.addEventListener("mouseover", function () {
+    this.textContent = "ภักดี หนุนภักดี";
+})
+
+text_name.addEventListener("mouseout", function () {
+    this.textContent = "Pakdee Hnoonpakdee";
+})
