@@ -11,7 +11,7 @@ let year = age_dt.getUTCFullYear();
 //now calculate the age of the user  
 let age = Math.abs(year - 1970);
 
-document.getElementById("age").innerHTML = "(" + age + " years)"
+document.querySelector("#age").innerHTML = "(" + age + " years)"
 
 var text_name = document.querySelector(".name");
 
