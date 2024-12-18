@@ -152,25 +152,57 @@ div.history {
     }
 }
 
+.coursera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 45%;
+        height: 45%;
+        padding: 10px;
+    }
+}
+
 /* Tablets */
 @media (max-width: 1024px) {
+
     div.body {
         font-size: small;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     div.profile {
-        width: 40%;
+        width: 97%;
         font-size: small;
+
+        div.image {
+            img.my_image {
+                width: 20%;
+                height: 20%;
+            }
+
+        }
     }
 
     div.history {
-        width: 60%;
+        width: 97%;
         font-size: small;
 
     }
 
     p.year {
         font-size: small;
+    }
+
+    .coursera {
+        img {
+            padding: 5px;
+            width: 97%;
+        }
+
     }
 
 }
